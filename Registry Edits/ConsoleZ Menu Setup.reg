@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+;Taken from https://www.askvg.com/add-cascading-menus-for-your-favorite-programs-in-windows-7-desktop-context-menu/
+
+[HKEY_CLASSES_ROOT\Directory\Shell\ConsoleZMenu]
+"MUIVerb"="Open ConsoleZ Here"
+"SubCommands"="consolez-cygwin;consolez-msys2;consolez-cmd"
+"icon"="C:\\Program Files\\ConsoleZ\\Console.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\ConsoleZMenu]
+"MUIVerb"="Open ConsoleZ Here"
+"SubCommands"="consolez-cygwin;consolez-msys2;consolez-cmd"
+"icon"="C:\\Program Files\\ConsoleZ\\Console.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\consolez-cygwin]
+@="Cygwin"
+"icon"="C:\\cygwin64\\Custom.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\consolez-cygwin\command]
+@="C:\\Program Files\\ConsoleZ\\console.exe -t Cygwin"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\consolez-msys2]
+@="MSYS2"
+"icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\consolez-msys2\command]
+@="C:\\Program Files\\ConsoleZ\\console.exe -t MSYS2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\consolez-cmd]
+@="CMD"
+"icon"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\consolez-cmd\command]
+@="C:\\Program Files\\ConsoleZ\\console.exe -t CMD"

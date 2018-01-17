@@ -1,4 +1,9 @@
-PS1="\[\033[01;34m\]{ \[\033[01;34m\]\W \[\033[01;34m\]}\[\033[01;32m\] \$( git rev-parse --abbrev-ref HEAD 2> /dev/null || echo "" ) \[\033[01;31m\]» \[\033[00m\]"
+#PS1="\[\033[01;34m\]{ \[\033[01;34m\]\W \[\033[01;34m\]}\[\033[01;32m\] \$( git rev-parse --abbrev-ref HEAD 2> /dev/null || echo "" ) \[\033[01;31m\]» 
+\[\033[00m\]"
+
+
+PS1="\[\033[01;34m\]{ \[\033[01;34m\]\W \[\033[01;34m\]}\[\033[01;32m\]\[\033[01;31m\]» \[\033[00m\]"
+
  
 alias curl='curl -A "$USER_AGENT"'
 alias egrep='egrep --color=auto'

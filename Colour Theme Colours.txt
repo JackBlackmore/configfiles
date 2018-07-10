@@ -1,0 +1,25 @@
+white: #fcfcfa
+
+light
+blue: #78dce8
+red: # ff6188
+purple: #ab9df2
+yellow: #ffd866
+orange: #fc9867
+green: #a9dc76
+
+dark
+purple: #b267e6
+red: #f44747
+blue: #6797e6
+gold: #cd9731
+
+
+dark black (background): #2d2a2e
+dark grey: #727072
+lighter black: #5b595c
+lighter grey: #c1c0c0
+
+
+Event Pink: #F200F2
+

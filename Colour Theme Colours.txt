@@ -1,25 +1,26 @@
-white: #fcfcfa
+white: 	#fcfcfa rgb(252,252,250)
 
 light
-blue: #78dce8
-red: # ff6188
-purple: #ab9df2
-yellow: #ffd866
-orange: #fc9867
-green: #a9dc76
+blue: 	#78dce8 rgb(120,220,232)
+red: 	#ff6188 rgb(255,97,136)
+purple: #ab9df2 rgb(171,157,242)
+yellow: #ffd866 rgb(255,216,102)
+orange: #fc9867 rgb(252,152,103)
+green: 	#a9dc76 rgb(169,220,118)
 
 dark
-purple: #b267e6
-red: #f44747
-blue: #6797e6
-gold: #cd9731
+purple: #b267e6 rgb(178,103,230)
+red: 	#f44747 rgb(244,71,71)
+blue: 	#6797e6 rgb(103,151,230)
+gold: 	#cd9731 rgb(205,151,49)
 
 
-dark black (background): #2d2a2e
-dark grey: #727072
-lighter black: #5b595c
-lighter grey: #c1c0c0
+dark black (background): #2d2a2e rgb(45,42,46)
+dark grey: #727072 rgb(114,112,114)
+lighter black: #5b595c rgb(91,89,92)
+lighter grey: #c1c0c0 rgb(193,192,192)
 
 
-Event Pink: #F200F2
+Event Pink: #F200F2 rgb(242,0,242)
+
 

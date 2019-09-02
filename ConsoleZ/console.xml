@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <settings lang="auto" icon_size="0">
-	<console shell="" init_dir="" refresh="100" change_refresh="10" rows="35" columns="170" buffer_rows="32766" buffer_columns="0" start_hidden="0" save_size="0">
+	<console shell="" init_dir="" refresh="100" change_refresh="10" rows="35" columns="160" buffer_rows="10000" buffer_columns="0" start_hidden="0" save_size="0">
 		<colors background_text_opacity="255">
 			<color id="0" r="91" g="89" b="92"/>
 			<color id="1" r="128" g="102" b="232"/>
@@ -24,7 +24,7 @@
 			<image file="" relative="0" extend="0" position="0">
 				<tint opacity="0" r="0" g="0" b="0"/></image></background></console>
 	<appearance>
-		<font name="Consolas" size="10" extra_width="0" bold="0" italic="0" smoothing="0" bold_intensified="0" italic_intensified="0" ligature="0">
+		<font name="Consolas" size="10" extra_width="1" bold="0" italic="0" smoothing="0" bold_intensified="0" italic_intensified="0" ligature="0">
 			<color use="0" r="252" g="252" b="250"/></font>
 		<window title="ConsoleZ" icon="" main_title_format="?U([%u] )?N({%u} )%m?s( - %s)" tab_title_format="%n. ?U([%u] )?N({%u} )%t?s( - %s)" use_tab_icon="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0"/>
 		<fullscreen start_in_fullscreen="0" fullscreen_monitor="0">
@@ -181,7 +181,7 @@
 		</actions></mouse>
 	<snippets dir=""/>
 	<tabs>
-		<tab title="Cygwin - Monokai" use_default_icon="0">
+		<tab title="Cygwin" use_default_icon="0">
 			<console shell="C:\cygwin64\bin\bash.exe /bin/xhere /bin/bash.exe" init_dir="" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="1"/>
 		</tab>
 		<tab title="MSYS2" use_default_icon="0">

@@ -1,12 +1,14 @@
 white: 	#fcfcfa rgb(252,252,250)
 
 light
-blue: 	#78dce8 rgb(120,220,232)
-red: 	#ff6188 rgb(255,97,136)
-purple: #ab9df2 rgb(171,157,242)
-yellow: #ffd866 rgb(255,216,102)
-orange: #fc9867 rgb(252,152,103)
-green: 	#a9dc76 rgb(169,220,118)
+blue:	#78dce8	rgb(120,220,232)	(Classes,Properties)
+red:	#ff6188	rgb(255,97,136)		(keywords)
+purple:	#ab9df2	rgb(171,157,242)	(integer,enum)
+yellow:	#ffd866	rgb(255,216,102)	(string)
+orange:	#fc9867	rgb(252,152,103)	(parameters)
+green:	#a9dc76	rgb(169,220,118)	(methods,namespace)
+
+LOCAL VARIABLE: ef596f
 
 dark
 purple: #b267e6 rgb(178,103,230)
@@ -15,12 +17,23 @@ blue: 	#6797e6 rgb(103,151,230)
 gold: 	#cd9731 rgb(205,151,49)
 
 
-dark black (background): #2d2a2e rgb(45,42,46)
-dark grey: #727072 rgb(114,112,114)
-lighter black: #5b595c rgb(91,89,92)
-lighter grey: #c1c0c0 rgb(193,192,192)
+dark black:	#2d2a2e	rgb(45,42,46) (background)
+dark grey:	#727072	rgb(114,112,114)
+lighter black:	#5b595c	rgb(91,89,92)
+lighter grey:	#c1c0c0	rgb(193,192,192)
 
 
 Event Pink: #F200F2 rgb(242,0,242)
 
 
+ONE DARK PRO
+purple	#d55fde 	(213,95,222)
+red	#ef596f 	(239,89,111)
+orange	#d19a66 	(209,154,102)
+yellow	#e5c07b 	(229,192,123)
+green	#89ca78 	(137,202,120)
+blue 	#61afef	(97,175,239)
+background	#282c34 	(40,44,52)
+grey 	#abb2bf 	(171,178,191)
+dark grey 	#7f848e	(127,132,142)
+teal 	#2bbac5	(43,186,197)

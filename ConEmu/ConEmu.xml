@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-09-02 14:10:31" build="190714">
+		<key name=".Vanilla" modified="2020-01-24 16:20:56" build="191012">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
-			<value name="StartTasksName" type="string" data="{Cygwin::zsh}"/>
+			<value name="StartTasksName" type="string" data="{Ubuntu::zsh}"/>
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
-			<value name="ColorTable00" type="dword" data="002e2a2d"/>
-			<value name="ColorTable01" type="dword" data="00e86680"/>
-			<value name="ColorTable02" type="dword" data="0076dca9"/>
-			<value name="ColorTable03" type="dword" data="00dabe76"/>
-			<value name="ColorTable04" type="dword" data="008861e1"/>
-			<value name="ColorTable05" type="dword" data="00f29dab"/>
-			<value name="ColorTable06" type="dword" data="003197cd"/>
+			<value name="ColorTable00" type="dword" data="00342c28"/>
+			<value name="ColorTable01" type="dword" data="00efaf61"/>
+			<value name="ColorTable02" type="dword" data="0078ca89"/>
+			<value name="ColorTable03" type="dword" data="00c5ba2b"/>
+			<value name="ColorTable04" type="dword" data="006f59ef"/>
+			<value name="ColorTable05" type="dword" data="00de5fd5"/>
+			<value name="ColorTable06" type="dword" data="007bc0e5"/>
 			<value name="ColorTable07" type="dword" data="00fafcfc"/>
-			<value name="ColorTable08" type="dword" data="002e2a2d"/>
-			<value name="ColorTable09" type="dword" data="00e8dc78"/>
-			<value name="ColorTable10" type="dword" data="0076dca9"/>
-			<value name="ColorTable11" type="dword" data="00e8dc78"/>
-			<value name="ColorTable12" type="dword" data="008861e1"/>
-			<value name="ColorTable13" type="dword" data="00f200f0"/>
-			<value name="ColorTable14" type="dword" data="0066d8ff"/>
+			<value name="ColorTable08" type="dword" data="00fafcfc"/>
+			<value name="ColorTable09" type="dword" data="00efaf61"/>
+			<value name="ColorTable10" type="dword" data="0078ca89"/>
+			<value name="ColorTable11" type="dword" data="00c5ba2b"/>
+			<value name="ColorTable12" type="dword" data="006f59ef"/>
+			<value name="ColorTable13" type="dword" data="00de5fd5"/>
+			<value name="ColorTable14" type="dword" data="007bc0e5"/>
 			<value name="ColorTable15" type="dword" data="00fafcfc"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
 			<value name="BackColorIdx" type="hex" data="10"/>
 			<value name="PopTextColorIdx" type="hex" data="10"/>
-			<value name="PopBackColorIdx" type="hex" data="00"/>
+			<value name="PopBackColorIdx" type="hex" data="10"/>
 			<value name="SingleInstance" type="hex" data="01"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
@@ -252,7 +252,7 @@
 			<value name="ClipboardArrowStart" type="hex" data="01"/>
 			<value name="ClipboardAllLines" type="hex" data="01"/>
 			<value name="ClipboardAllLinesPosix" type="hex" data="00"/>
-			<value name="ClipboardFirstLine" type="hex" data="01"/>
+			<value name="ClipboardFirstLine" type="hex" data="02"/>
 			<value name="ClipboardFirstLinePosix" type="hex" data="00"/>
 			<value name="ClipboardClickPromptPosition" type="hex" data="02"/>
 			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
@@ -310,8 +310,8 @@
 			<value name="Multi.Iterate" type="hex" data="01"/>
 			<value name="Multi.SplitWidth" type="hex" data="04"/>
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
-			<value name="FontName" type="string" data="Meslo LG M for Powerline"/>
-			<value name="FontName2" type="string" data="Meslo LG M for Powerline"/>
+			<value name="FontName" type="string" data="Hack"/>
+			<value name="FontName2" type="string" data="Hack"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSizeX" type="ulong" data="0"/>
 			<value name="FontSizeX2" type="ulong" data="0"/>
@@ -338,12 +338,12 @@
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
-			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="-796"/>
-			<value name="ConWnd Y" type="long" data="-967"/>
-			<value name="LastMonitor" type="string" data="-1129,-1080,791,0"/>
-			<value name="ConWnd Width" type="dword" data="000000b4"/>
-			<value name="ConWnd Height" type="dword" data="0000002d"/>
+			<value name="WindowMode" type="dword" data="00000520"/>
+			<value name="ConWnd X" type="long" data="1055"/>
+			<value name="ConWnd Y" type="long" data="-895"/>
+			<value name="LastMonitor" type="string" data="655,-1080,2575,-40"/>
+			<value name="ConWnd Width" type="dword" data="0000008d"/>
+			<value name="ConWnd Height" type="dword" data="00000028"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="RestoreInactive" type="hex" data="00"/>
@@ -598,27 +598,9 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="Tasks" modified="2019-08-30 16:17:46" build="190714">
-				<value name="Count" type="long" data="14"/>
-				<key name="Task1" modified="2019-09-02 09:10:06" build="190714">
-					<value name="Name" type="string" data="{Cygwin::zsh}"/>
-					<value name="Flags" type="dword" data="00000007"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set CHERE_INVOKING=1 &amp; set "PATH=%ConEmuDrive%\cygwin64\bin;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe -new_console:p %ConEmuDrive%\cygwin64\bin\zsh.exe --login -i -new_console:C:"%ConEmuDrive%\cygwin64\Cygwin.ico"'/>
-				</key>
-				<key name="Task2" modified="2019-09-02 09:10:06" build="190714">
-					<value name="Name" type="string" data="{Cygwin::bash}"/>
-					<value name="Flags" type="dword" data="00000004"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set CHERE_INVOKING=1 &amp; set "PATH=%ConEmuDrive%\cygwin64\bin;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe -new_console:p %ConEmuDrive%\cygwin64\bin\bash.exe --login -i -new_console:C:"%ConEmuDrive%\cygwin64\Cygwin.ico"'/>
-				</key>
-				<key name="Task3" modified="2019-09-02 09:10:06" build="190714">
+			<key name="Tasks" modified="2019-11-14 15:26:47" build="191012">
+				<value name="Count" type="long" data="13"/>
+				<key name="Task1" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -627,7 +609,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
 				</key>
-				<key name="Task4" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task2" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -636,7 +618,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:a'/>
 				</key>
-				<key name="Task5" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task3" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -645,7 +627,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='"%windir%\syswow64\cmd.exe" /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
 				</key>
-				<key name="Task6" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task4" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -655,7 +637,7 @@
 					<value name="Cmd1" type="string" data='&gt; "%windir%\system32\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is Native cmd.exe"'/>
 					<value name="Cmd2" type="string" data='"%windir%\syswow64\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is 32 bit cmd.exe -new_console:s50V"'/>
 				</key>
-				<key name="Task7" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task5" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -664,7 +646,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe"/>
 				</key>
-				<key name="Task8" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task6" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -673,25 +655,52 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe -new_console:a"/>
 				</key>
-				<key name="Task9" modified="2019-08-30 16:17:46" build="190714">
-					<value name="Name" type="string" data="{Bash::Git bash}"/>
+				<key name="Task7" modified="2019-11-14 15:26:47" build="191012">
+					<value name="Name" type="string" data="{Ubuntu::bash}"/>
+					<value name="Flags" type="dword" data="00000004"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data='/dir %CD% /icon "%USERPROFILE%\AppData\Local\lxss\bash.ico"'/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data="%windir%\system32\bash.exe ~ -cur_console:p"/>
+				</key>
+				<key name="Task8" modified="2019-11-14 15:26:47" build="191012">
+					<value name="Name" type="string" data="{Ubuntu::zsh}"/>
+					<value name="Flags" type="dword" data="00000007"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data='/dir %CD% /icon "%USERPROFILE%\AppData\Local\lxss\bash.ico"'/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data="%windir%\system32\bash.exe -cur_console:p5 -c zsh "/>
+				</key>
+				<key name="Task9" modified="2019-11-14 15:26:47" build="191012">
+					<value name="Name" type="string" data="{Ubuntu::bash (WSL)}"/>
+					<value name="Flags" type="dword" data="00000004"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data='/dir %CD% /icon "%USERPROFILE%\AppData\Local\lxss\bash.ico"'/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data='set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe --wsl -cur_console:pm:/mnt'/>
+				</key>
+				<key name="Task10" modified="2019-11-14 15:26:47" build="191012">
+					<value name="Name" type="string" data="{Ubuntu::zsh (WSL)}"/>
+					<value name="Flags" type="dword" data="00000004"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data='/dir %CD% /icon "%USERPROFILE%\AppData\Local\lxss\bash.ico"'/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data='set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe --wsl -cur_console:pm:/mnt -t /usr/bin/zsh -l'/>
+				</key>
+				<key name="Task11" modified="2019-11-14 15:26:47" build="191012">
+					<value name="Name" type="string" data="{Bash::CygWin bash}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set "PATH=%ConEmuDir%\..\Git\usr\bin;%PATH%" &amp; %ConEmuDir%\..\Git\git-cmd.exe --no-cd --command=%ConEmuBaseDirShort%\conemu-msys2-64.exe /usr/bin/bash.exe -l -i -new_console:p'/>
+					<value name="Cmd1" type="string" data='set CHERE_INVOKING=1 &amp; set "PATH=%ConEmuDrive%\cygwin64\bin;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe -new_console:p %ConEmuDrive%\cygwin64\bin\bash.exe --login -i -new_console:C:"%ConEmuDrive%\cygwin64\Cygwin.ico"'/>
 				</key>
-				<key name="Task10" modified="2019-08-30 16:17:46" build="190714">
-					<value name="Name" type="string" data="{Bash::Msys2-64}"/>
-					<value name="Flags" type="dword" data="00000004"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set CHERE_INVOKING=1 &amp; set "PATH=%ConEmuDrive%\msys64\usr\bin;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-msys2-64.exe -new_console:p %ConEmuDrive%\msys64\usr\bin\bash.exe --login -i -new_console:C:"%ConEmuDrive%\msys64\msys2.ico"'/>
-				</key>
-				<key name="Task11" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task12" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Helper::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -700,25 +709,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k type "%ConEmuBaseDir%\Addons\AnsiColors16t.ans" -cur_console:n'/>
 				</key>
-				<key name="Task12" modified="2019-08-30 16:17:46" build="190714">
-					<value name="Name" type="string" data="{SDK::VS 14.0 x86 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000004"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='cmd /k ""%ConEmuDrive%\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"" x86 -new_console:t:"VS 14.0" -new_console:C:"%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,33"'/>
-				</key>
-				<key name="Task13" modified="2019-08-30 16:17:46" build="190714">
-					<value name="Name" type="string" data="{SDK::VS 14.0 x64 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000004"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=""/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='cmd /k ""%ConEmuDrive%\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"" x64 -new_console:t:"VS 14.0" -new_console:C:"%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,33"'/>
-				</key>
-				<key name="Task14" modified="2019-08-30 16:17:46" build="190714">
+				<key name="Task13" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="{Tools::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -731,23 +722,23 @@
 			<key name="Apps" modified="2019-08-30 14:29:06" build="190714">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2019-08-30 14:37:40" build="190714">
-				<value name="Count" type="long" data="1"/>
-				<key name="Palette1" modified="2019-08-30 14:37:40" build="190714">
+			<key name="Colors" modified="2019-11-14 15:26:47" build="191012">
+				<value name="Count" type="long" data="2"/>
+				<key name="Palette1" modified="2019-11-14 15:26:47" build="191012">
 					<value name="Name" type="string" data="Monokai Pro"/>
 					<value name="TextColorIdx" type="hex" data="10"/>
 					<value name="BackColorIdx" type="hex" data="10"/>
 					<value name="PopTextColorIdx" type="hex" data="10"/>
 					<value name="PopBackColorIdx" type="hex" data="10"/>
-					<value name="ColorTable00" type="dword" data="005c595b"/>
-					<value name="ColorTable01" type="dword" data="00e86680"/>
+					<value name="ColorTable00" type="dword" data="002e2a2d"/>
+					<value name="ColorTable01" type="dword" data="00f29dab"/>
 					<value name="ColorTable02" type="dword" data="0076dca9"/>
-					<value name="ColorTable03" type="dword" data="00dabe76"/>
+					<value name="ColorTable03" type="dword" data="00e8dc78"/>
 					<value name="ColorTable04" type="dword" data="008861e1"/>
 					<value name="ColorTable05" type="dword" data="00f29dab"/>
 					<value name="ColorTable06" type="dword" data="003197cd"/>
 					<value name="ColorTable07" type="dword" data="00fafcfc"/>
-					<value name="ColorTable08" type="dword" data="005c595b"/>
+					<value name="ColorTable08" type="dword" data="00fafcfc"/>
 					<value name="ColorTable09" type="dword" data="00e8dc78"/>
 					<value name="ColorTable10" type="dword" data="0076dca9"/>
 					<value name="ColorTable11" type="dword" data="00e8dc78"/>
@@ -756,15 +747,49 @@
 					<value name="ColorTable14" type="dword" data="0066d8ff"/>
 					<value name="ColorTable15" type="dword" data="00fafcfc"/>
 				</key>
+				<key name="Palette2" modified="2019-11-14 15:26:47" build="191012">
+					<value name="Name" type="string" data="One Dark Pro"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00342c28"/>
+					<value name="ColorTable01" type="dword" data="00efaf61"/>
+					<value name="ColorTable02" type="dword" data="0078ca89"/>
+					<value name="ColorTable03" type="dword" data="00c5ba2b"/>
+					<value name="ColorTable04" type="dword" data="006f59ef"/>
+					<value name="ColorTable05" type="dword" data="00de5fd5"/>
+					<value name="ColorTable06" type="dword" data="007bc0e5"/>
+					<value name="ColorTable07" type="dword" data="00fafcfc"/>
+					<value name="ColorTable08" type="dword" data="00fafcfc"/>
+					<value name="ColorTable09" type="dword" data="00efaf61"/>
+					<value name="ColorTable10" type="dword" data="0078ca89"/>
+					<value name="ColorTable11" type="dword" data="00c5ba2b"/>
+					<value name="ColorTable12" type="dword" data="006f59ef"/>
+					<value name="ColorTable13" type="dword" data="00de5fd5"/>
+					<value name="ColorTable14" type="dword" data="007bc0e5"/>
+					<value name="ColorTable15" type="dword" data="00fafcfc"/>
+				</key>
 			</key>
 			<value name="CmdLineHistory" type="multi">
-				<line data="{Cygwin::zsh}"/>
-				<line data="{Cygwin::bash}"/>
-				<line data="far"/>
+				<line data="{Ubuntu::zsh}"/>
 				<line data="{Shells::cmd (Admin)}"/>
+				<line data="{Shells::cmd 64/32}"/>
+				<line data="{Shells::cmd}"/>
+				<line data="{Ubuntu::bash}"/>
+				<line data="{Bash::CygWin bash}"/>
+				<line data="{Ubuntu::bash (WSL)}"/>
+				<line data="{Ubuntu::zsh (WSL)}"/>
+				<line data="{Bash::zsh}"/>
+				<line data="{Bash::bash}"/>
+				<line data="{Cygwin::bash}"/>
+				<line data="{Cygwin::zsh}"/>
+				<line data="{Shells::cmd-32}"/>
+				<line data="far"/>
 				<line data="{Cygwin Bash}"/>
 				<line data='set CHERE_INVOKING=1 &amp; set "PATH=%ConEmuDrive%\cygwin64\bin;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe %ConEmuDrive%\cygwin64\bin\bash.exe --login -i'/>
 			</value>
+			<value name="StatusBar.Hide.InputGrouping" type="hex" data="00"/>
 		</key>
 	</key>
 </key>

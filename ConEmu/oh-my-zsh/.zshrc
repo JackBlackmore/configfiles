@@ -1,10 +1,8 @@
-
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH="/home/blackmore/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -12,8 +10,6 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
-#ZSH_THEME="avit"
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -72,13 +68,12 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize)
-
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-ZSH_COLORIZE_STYPE="colourful"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -103,15 +98,13 @@ ZSH_COLORIZE_STYPE="colourful"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#alias ls='ls -a'
-
-#prompt_context() {
-#    if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]] then
-#        prompt_segment black default "%(!.%{%F{yellow%}.)$USER"
-#    fi
-#}
-
-
-COMPLETION_WAITING_DOTS="true" 
-DISABLE_UNTRACKED_FILES_DIRTY="true"
+plugins=(git colorize docker docker-compose)     
 prompt_context() {}
+
+#eval `dircolors ~/.dir_colors`  
+eval `dircolors ~/dircolors.256dark`
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+
+alias ls="ls -lsa --color=auto"
+export PATH="$PATH:$HOME/.local/bin"
+export DOCKER_HOST=tcp://localhost:2375

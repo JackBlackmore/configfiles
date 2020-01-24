@@ -107,18 +107,19 @@ prompt_git() {
   local ref dirty mode repo_path
 
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
-    repo_path=$(git rev-parse --git-dir 2>/dev/null)
-    dirty=$(parse_git_dirty)
+    #repo_path=$(git rev-parse --git-dir 2>/dev/null)
+    # dirty=$(parse_git_dirty) -- disabled to speed up prompt
     ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git rev-parse --short HEAD 2> /dev/null)"
  
 
     # --- Atrakeur's mod START ---
     # Status is ten time faster that native is dirty
-    if [[ -z $(git status -s) ]]; then
-      prompt_segment green black
-    else
-      prompt_segment yellow black
-    fi
+    prompt_segment blue black
+#     if [[ -z $(git --no-optional-locks status -s) ]]; then
+#       prompt_segment green black
+#     else
+#       prompt_segment yellow black
+#     fi
     # --- Atrakeur's mod END ---
    
 #   if [[ -n $dirty ]]; then
@@ -211,7 +212,7 @@ prompt_hg() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue $CURRENT_FG '%~'
+  prompt_segment yellow $CURRENT_FG '%~'
 }
 
 # Virtualenv: current working virtualenv
